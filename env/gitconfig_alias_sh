@@ -1,0 +1,43 @@
+
+git config --global color.ui true
+git config --global color.diff auto
+git config --global color.log auto
+git config --global color.status auto
+git config --global color.branch auto
+git config --global core.filemode false
+git config --global core.autocrlf false
+git config --global core.safecrlf false
+
+git config --global core.editor vim
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset-%C(bold blue)%an%Creset-%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+git config --global alias.fdiff "diff-index --cached --name-only HEAD"
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st "status -uno"
+git config --global alias.type 'cat-file -t'
+git config --global alias.dump 'cat-file -p'
+git config --list
+git config --global user.name Johnny Su
+git config --global user.email "suhanjyun@gmail.com"
+
+git config --global color.ui true
+git config --global color.diff auto
+git config --global color.log auto
+git config --global color.status auto
+git config --global color.branch auto
+git config --global core.filemode false
+git config --global core.autocrlf false
+git config --global core.safecrlf false
+
+git config --global core.editor vim
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset-%C(bold blue)%an%Creset-%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+git config --global alias.fdiff "diff-index --cached --name-only HEAD"
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st "status -uno"
+git config --global alias.type 'cat-file -t'
+git config --global alias.dump 'cat-file -p'
+git config --list
+
